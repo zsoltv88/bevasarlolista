@@ -14,9 +14,7 @@ A lista az oldal frissítékor vgay újra megnyitásakor sem törlődik. Az adat
 
 ## Repository kezelése
 
-1. Klónozd ezt a repository-t a saját számítógépedre és a továbbiakban ennek *vasarlas* mappájában dolgozz!
-
-1. Töltsd fel a repository-t egy új repository-ba a saját GitHub fiókodba! A továbbiakban is töltsd fel ide a commitokat!
+1. Forkold ezt a repository-t a saját repository-dba, majd klónozd a saját számítógépedre, és a továbbiakban ebben dolgozz! A módosításokat töltsd fel a GitHubra is!
 
 ## Feladatok a HTML fájlban
 
@@ -75,9 +73,9 @@ Készíts egy *letrehoz* nevű függvényt, amely a lista HTML kódjához hozzá
 
 1. Egészítsd ki a *letrehoz* függvényt úgy, hogy az új elem második gombja hívja meg a *szerkeszt* függvényt az adott elemmel! Próbáld ki a szerkeszt gomb működését!
 
-1. Az oldal frissítésekor újratöltésekor is szeretnénk megőrizni a lista tartalmát. Ehhez készíts egy *ment* nevű függvényt, amely elmenti a lista teljes tartalmát a böngésző helyi tárolójába (Local storage-ba)! Próbáld ki a mentést a böngésző konzoljáról! Ellenőrizd a Local storage tartalmát!
+1. Az oldal frissítésekor újratöltésekor is szeretnénk megőrizni a lista tartalmát. Ehhez készíts egy *ment* nevű függvényt, amely elmenti a lista teljes tartalmát a böngésző helyi tárolójába (Local storage-ba) egy bevasarlolista nevű kulccsal! Próbáld ki a mentést a böngésző konzoljáról! Ellenőrizd a Local storage tartalmát!
 
-1. Készíts egy *betolt* nevű függvényt, amely betölti a listába a Local storage lista kulcsához tartozó szöveget! Ha nincs lista mevű kulcs, akkor üres legyen a lista!
+1. Készíts egy *betolt* nevű függvényt, amely betölti a listába a Local storage bevasarlolista kulcsához tartozó szöveget! Ha nincs bevasarlolista mevű kulcs, akkor üres legyen a lista!
 
 1. Az oldal betöltésekor hívja meg a *betolt* függvényt!
 

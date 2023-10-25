@@ -29,3 +29,15 @@ function szerkeszt(mit) {
     ujElem.value = mit.parentElement.innerText.substring(4);
     torol(mit)
 }
+
+function ment() {
+    localStorage.bevasarlolista = lista.innerHTML;
+}
+
+function betolt() {
+    if (localStorage.bevasarlolista)
+        lista.innerHTML = localStorage.bevasarlolista;
+    else
+        lista.innerHTML = '';
+}
+betolt();
